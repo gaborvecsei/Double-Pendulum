@@ -1,3 +1,3 @@
 # Double Pendulum
 
-TODO
+![pendulums](art/chaotic_pendulums.gif)
