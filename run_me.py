@@ -20,7 +20,7 @@ print("Pendulums created")
 
 start_time = 0
 end_time = 20
-dt = 0.05
+dt = 0.1
 
 init_angle_1 = 90.0
 init_velocity_1 = 0.0
@@ -44,7 +44,7 @@ print("Trajectory plot created")
 
 # Animate pendulums
 
-anim = pend_plotter.anim(frame_interval=24)
+anim = pend_plotter.anim(frame_interval=60)
 anim.save("art/chaotic_pendulums.gif", writer="pillow")
 
 print("Animation created")
